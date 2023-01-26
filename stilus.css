@@ -1,0 +1,182 @@
+body {
+background-image: url(kepek/black.png);
+font-family: Arial, Helvetica, sans-serif;
+color: beige;
+font-size: 10pt;
+margin: 0px;
+}
+
+main {
+
+width: 90%;
+max-height: 900px;
+margin: auto;
+
+}
+
+
+table {
+
+    color: black;
+}
+
+header{
+    background-image: url(kepek/game.jpg);
+    background-size: cover;
+    height: 300px;
+}
+
+
+
+
+nav {
+
+border-bottom: 1px solid beige ;
+
+}
+
+.menu {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.gomb {
+    float: left;
+    list-style-type: none;
+    border-right: 1px solid beige;
+}
+
+.gomb a {
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.gomb a:hover {
+    background-color: orangered;
+  }
+
+
+
+
+
+article {
+    text-align: justify;
+background-color: aliceblue;
+display: grid;
+grid-template-columns: 3fr 1fr;
+
+
+}
+
+.kiireas {
+
+   
+}
+
+p {
+font-size: 10px;
+color: black;
+}
+
+
+h2 {
+font-size: 15px;
+color: black;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+ul {
+    padding-left: 60px;
+    padding-right: 20px;
+
+}
+
+li {
+    list-style-type: square;
+    color: black;
+  
+
+}
+
+.kep {
+
+width: 80%;
+padding-top: 50px;
+padding-bottom: 10px;
+margin: 10px;
+
+}
+
+img {
+
+    width: 100%;
+}
+
+footer {
+
+background-color: yellow;
+text-align: center;
+color: black;
+margin-top: -10px;
+
+
+}
+
+@media only screen and (max-width: 900px) {
+   
+
+    article {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    
+    
+    }
+    
+    
+    }
+
+
+
+@media only screen and (max-width: 700px) {
+
+    main {
+
+        width: 100%;
+    }
+
+
+    .menu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #f1f1f1;
+      }
+      
+      .gomb a {
+        display: block;
+        color: #000;
+        padding: 8px 16px;
+        text-decoration: none;
+      }
+      
+    
+   
+
+article {
+    display: grid;
+    grid-template-columns: 1fr;
+
+
+}
+
+
+}
